@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%) #303030;
+    background-repeat: no-repeat;
+}
 #Menu-Superior{
     width: 100%;
     height: 100px;
@@ -42,3 +46,116 @@
     justify-content: space-around;
     align-items: center;
 }
+
+
+/* Secão Principal do site*/ 
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+header{
+    color: white;
+    font-family: 'Inter';
+}
+header h1{
+    font-size: 80px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 100px;
+}
+header .invert{
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+
+/* Fomulario*/
+
+form{
+    color: white;
+    font-family: 'inter';
+    font-size: 30px;
+    font-weight: 600px;
+    width: 600px;
+
+}
+
+.Form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+input{
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+form label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input::placeholder{
+    color: rgba(57, 57, 57, 0.50);
+}
+
+.checkbox-itens label{
+    font-size: 25px;
+}
+.checkbox-itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'inter';
+}
+
+input[type="checkbox"]{
+    transform: scale(1.7);
+}
+input[type="submit"]{
+    cursor: pointer;
+    margin-top: 70px;
+    width: 600px;
+    font-size: 32px;
+    color: white;
+    height: 56px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(12, 112, 242, 0.90);
+    box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
